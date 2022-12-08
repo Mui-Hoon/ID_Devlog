@@ -1,0 +1,36 @@
+body {font-family: 'font-family: 'Cinzel Decorative', cursive'; margin : 0px}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+/* flex box */
+body {
+    background-color: rgb(255, 168, 203);
+  }
+
+  .footer {
+    background-color: rgb(255, 168, 203);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: auto;}
+
+  /* Responsive layout - makes a one column-layout instead of a two-column layout */
+  @media only screen and (max-width: 700px) {
+
+    .flex-container {
+      flex-direction: column;}
+  
+    body {
+      background-color: rgb(255, 168, 203);
+      }
+    }
